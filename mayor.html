@@ -12,6 +12,7 @@
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
  
 </head>
@@ -27,16 +28,21 @@
       </button>
       <a class="navbar-brand" href="#myPage"><img src="images/dad.png" img class="round" width="150" height="150" alt=""></a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse"  id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
+
         <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+
+        <li><a href="#platform">Jelly Bean Shoes</a></li>
+
+        <li><a href="#contribution">CONTRIBUTION</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#">FACEBOOK</a></li>
-        <li><a href="#">TWITTER</a></li>
-        <li><a href="#">PINTREST</a></li>
+      <li> <a href="https://facebook.com/Second-Missionary-Baptist-Church-Centralia-454119771307435/" class="external"><i class="fa fa-2x fa-facebook-square"></i></a></li> 
+      <li><a href="https://twitter.com/sbaptist4176?ref_src=twsrc%5Etfw" target="blank"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+      <li><a href="https://plus.google.com/114712037268542466571" rel="publisher"><i class="fa fa-2x fa-google-plus-square"></i></a> </li>
+      <li><a href="https://www.youtube.com/channel/UCifcNRxN7KWVUy_R5P96sZA"><i class="fa fa-2x fa-youtube-square"></i></a></li>
+      <li>  <a href="calendar.html"><i class="fa fa-2x fa-calendar"></i></a></li>
       </ul>
     </div>
   </div>
@@ -44,7 +50,7 @@
 
 <div class="jumbotron text-center">
   <h1>Nick Curlett for Mayor</h1> 
-  <p>I specialize in NOTHING</p> 
+  <p>I Specialize in NOTHING</p> 
   
 </div>
 
@@ -89,6 +95,8 @@ And the only safe place to live is on an Indian reservation and the band played 
 
 <p>Great googa-looga, can't you hear me talking to you sayin' ball of confusion, that's what the world is today, hey, hey. Let me hear ya, let me hear ya, let me hear ya sayin', ball of confusion, that's what the world is today, hey, hey, let me hear ya, let me hear ya, let me hear ya, let me hear ya, let me hear ya
 ball of confusion</p>
+
+
     </div>
   </div>
 </div>
@@ -137,7 +145,7 @@ ball of confusion</p>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="platform" class="container-fluid text-center bg-grey">
   <h2>My Platform</h2><br>
   <h4>What I Represent</h4>
   <div class="row text-center slideanim">
@@ -205,9 +213,9 @@ ball of confusion</p>
     </a>
   </div>
 </div>
-
+</div>
 <!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
+<div id="contribution" class="container-fluid">
   <div class="text-center">
     <h2>Contributions</h2>
     <h4>Choose a contribution plan that works for "ME"</h4>
@@ -273,24 +281,37 @@ ball of confusion</p>
       <p><span class="glyphicon glyphicon-envelope"></span> nkcurlett@nobodysmayor.com</p>	   
     </div>
     <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
+      <div class="container">  
+    <form class="form-horizontal" role="form">
+      <form action="thankyou.html" method="post" onsubmit="return check_info();">
+  
+ <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Name:</label>
+      <div class="col-sm-6">          
+        <input type="name" class="form-control" id="name" placeholder="Enter name">
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>	
     </div>
-  </div>
-</div>
+<br><br>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-6">
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+    </div>
+   
+   <br><br> 
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-6">
+        <a href="thankyou.html" class="btn btn-danger btn-lg">911 Please Hold</button></a>
+      </div>
 
+
+
+
+</div>
+</div>
+</div>
+<h2>Find Me at The Bar</h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12464.343451065915!2d-90.239463!3d38.646906!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1464027485246" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
  
 <!-- Add Google Maps -->
@@ -300,7 +321,7 @@ ball of confusion</p>
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Elect Me For Nobody's Mayor <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>		
+  <p>Elect Me For Nobody's Mayor <a href="http://www.nkcurlett.com" title="Visit Nick Curlett">nkcurlett.com</a></p>		
 </footer>
 
 <script>
@@ -309,7 +330,7 @@ $(document).ready(function(){
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
     // Prevent default anchor click behavior
-    event.preventDefault();
+    //event.preventDefault();
 
     // Store hash
     var hash = this.hash;
@@ -338,6 +359,21 @@ $(document).ready(function(){
   });
 })
 </script>
+<script>
+function changePage(event) {
+    if($(event.target).hasClass('external')) {
+        window.location.href = $(event.target).attr('href');
+        return;
+    }
+    //...
+}
+$(function () {
+    $('.nav li').click( changePage );
+}
+
+
+
+</script>
 
 </body>
-</html><!-- text below generated by server. PLEASE REMOVE --><!-- Counter/Statistics data collection code --><script language="JavaScript" src="http://l.yimg.com/d/lib/smb/js/hosting/cp/js_source/whv2_001.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.webhosting.yahoo.com/visit.gif?us1463843886" alt="setstats" border="0" width="1" height="1"></noscript><script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/9e0319c95c039a745adab205b335aff2?id=dd00d1450e16";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script>
+</html>
