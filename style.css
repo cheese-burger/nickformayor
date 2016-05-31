@@ -179,6 +179,7 @@ body {
     font-size: 36px;
     text-decoration: none;
     display:block;
+    color:#000;
   }
   footer{
     background-image: url(images/navagation.png);
