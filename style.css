@@ -30,8 +30,7 @@ body {
   }
   /*this is the index and thankyou page settings*/
   .jumbotron2 {
-    width: 100%;
-    height:100%;
+  
       background-image: url(images/vote1-banner.jpg);
       background-repeat: no-repeat;
       background-position: center;
