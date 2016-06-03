@@ -285,6 +285,30 @@ ball of confusion</p>
     <div class="col-sm-7 slideanim">
     
     <form class="form-horizontal" role="form">
+       <form action="thankyou.html" method="get" onsubmit="return check_info();">
+<ul>
+  <li>Usename: <input type="text" name="username" id="username"/></li>
+<li>Password: <input type="password" name="password" id="password"/></li>
+
+<li><input type="submit" value="Enter Now!"/></li>
+</ul>
+</form>
+</div>
+<script type="text/javascript">
+    function check_info(){
+       var username = document.getElementById('username').value;
+       var password = document.getElementById('password').value;
+        if (username=="" || password=="") {
+        alert ('Please fill in all fields');
+        return false;
+       }
+       else{
+        return true;
+       }
+    }
+</script>
+      
+      
       <form action="thankyou.html" method="post" onsubmit="return check_info();">
   
  <div class="form-group">
